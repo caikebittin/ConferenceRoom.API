@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scr", "scr", "{44EDA12D-1DE3-4552-A3ED-53D5DEDCC00C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{927B22EF-A473-49F7-A0B4-17687BBA994C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{24113654-09C2-482C-8AB5-286224247B38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{B44EE09D-394F-4F59-91FE-201B728825C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{819B9268-CD83-4B7D-A7A1-F1E49E10CB67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferenceRoom.Api", "ConferenceRoom.Api\ConferenceRoom.Api.csproj", "{AD0F2EC2-8D0C-4FEE-AEE8-D6CF1BFC8CE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferenceRoom.Core", "ConferenceRoom.Core\ConferenceRoom.Core.csproj", "{4BFC110E-6AB3-4A85-A22D-84DE2942EFA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferenceRoom.Infra", "ConferenceRoom.Infra\ConferenceRoom.Infra.csproj", "{2E1C6FF3-8439-432C-BAA7-1D35D14B66CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferenceRoom.Test", "ConferenceRoom.Test\ConferenceRoom.Test.csproj", "{B9554995-F39B-4E37-B770-65BDD8B1FCF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD0F2EC2-8D0C-4FEE-AEE8-D6CF1BFC8CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0F2EC2-8D0C-4FEE-AEE8-D6CF1BFC8CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0F2EC2-8D0C-4FEE-AEE8-D6CF1BFC8CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0F2EC2-8D0C-4FEE-AEE8-D6CF1BFC8CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFC110E-6AB3-4A85-A22D-84DE2942EFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFC110E-6AB3-4A85-A22D-84DE2942EFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFC110E-6AB3-4A85-A22D-84DE2942EFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFC110E-6AB3-4A85-A22D-84DE2942EFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1C6FF3-8439-432C-BAA7-1D35D14B66CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1C6FF3-8439-432C-BAA7-1D35D14B66CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1C6FF3-8439-432C-BAA7-1D35D14B66CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1C6FF3-8439-432C-BAA7-1D35D14B66CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9554995-F39B-4E37-B770-65BDD8B1FCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9554995-F39B-4E37-B770-65BDD8B1FCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9554995-F39B-4E37-B770-65BDD8B1FCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9554995-F39B-4E37-B770-65BDD8B1FCF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{927B22EF-A473-49F7-A0B4-17687BBA994C} = {44EDA12D-1DE3-4552-A3ED-53D5DEDCC00C}
+		{24113654-09C2-482C-8AB5-286224247B38} = {44EDA12D-1DE3-4552-A3ED-53D5DEDCC00C}
+		{B44EE09D-394F-4F59-91FE-201B728825C8} = {44EDA12D-1DE3-4552-A3ED-53D5DEDCC00C}
+		{819B9268-CD83-4B7D-A7A1-F1E49E10CB67} = {44EDA12D-1DE3-4552-A3ED-53D5DEDCC00C}
+		{AD0F2EC2-8D0C-4FEE-AEE8-D6CF1BFC8CE0} = {B44EE09D-394F-4F59-91FE-201B728825C8}
+		{4BFC110E-6AB3-4A85-A22D-84DE2942EFA6} = {927B22EF-A473-49F7-A0B4-17687BBA994C}
+		{2E1C6FF3-8439-432C-BAA7-1D35D14B66CA} = {24113654-09C2-482C-8AB5-286224247B38}
+		{B9554995-F39B-4E37-B770-65BDD8B1FCF6} = {819B9268-CD83-4B7D-A7A1-F1E49E10CB67}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9806472-65AA-4C0B-87C1-AA8F235AC69D}
+	EndGlobalSection
+EndGlobal
